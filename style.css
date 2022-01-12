@@ -1,0 +1,163 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Work Sans', sans-serif;
+    background-color: white;
+    margin: 0;
+    font-weight: 600;
+}
+
+p {
+    width: 33%;
+}
+img {
+    border-radius: 10px;
+}
+
+header {
+    background-color: #70a48b;
+    padding-bottom: 1em;
+    padding-top: 1em;
+
+}
+
+section {
+    padding: 1em;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1em;
+}
+
+
+.nav-bar {
+    list-style: none;
+    display: flex;
+   justify-content: center;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-right: 5%;
+    margin-left: 15%;
+    text-align: center;
+    height: 50px;
+}
+
+li {
+    display: inline-flex;
+    white-space: nowrap;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+
+}
+
+.donation {
+    background:#1f211c ;
+    border-radius: 10px;
+    align-content: center;
+    border-color: #1f211c;
+}
+
+.loc-buttons {
+    display: flex;
+    font-weight: 600;
+    background-color: #70a48b;
+    color: white;
+    border-color: #1f211c;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #70a48b ;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+
+.footer-logo {
+    height: auto;
+    width:  3em;
+}
+
+.mobile-pets { 
+    width: 20em;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+.location-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.hidden-mobile {
+    display: none;
+}
+
+.hidden-mobile-text {
+    display: none;
+}
+
+.center-mobile {
+    width: fit-content;
+    padding-bottom: 1em;
+}
+
+}
+
+
+@media screen and (min-width: 769px) {
+
+p {
+    width: 85%;
+}
+
+.nav-bar {
+    margin-left:0%;
+    margin-right: 5%;
+}
+
+.nav-bar-desktop {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.desktop-pets {
+    height: 300px;
+    width: auto;
+}
+.location-buttons {
+ width: 33%;
+}
+.hidden-desktop {
+    display: none;
+}
+.hidden-mobile {
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+.desktop-table {
+    width: 66%;
+}
+.loc-buttons {
+    width:85%;
+
+}
+}
